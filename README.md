@@ -15,11 +15,11 @@ run the helper for more info,
 
 you can also use this script to batch test urls.  Simply save a list of urls in a file,
 
-`
-http://url1
-http://url2
-http://url3
-`
+
+    http://url1
+    http://url2
+    http://url3`
+
 
 and pipe this file into the script,
 
