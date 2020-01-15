@@ -27,4 +27,6 @@ and pipe this file into the script,
 
 this will output a list of rediected urls which you further save into a file if need be,
 
-`cat urls.txt | ./mwlove.sh -f ./test.htaccess > results.txt`
+`cat urls.txt | ./mwlove.sh -f ./test.htaccess >> results.txt`
+
+the output is a CSV formated line that contains the line number of the matched rule from the htaccess file, the actual rule that was matched, and the redirected url.
